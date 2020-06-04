@@ -8,6 +8,7 @@ const LandingPage = () => {
         Hi, I’m Jihyun Hwang. A Korean software engineer, currently based in
         London.
       </LandingPageContainer>
+      <i className="fab fa-medium"></i>
     </>
   );
 };

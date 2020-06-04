@@ -1,12 +1,18 @@
 import React from "react";
 import LandingPage from "./components/LandingPage";
-import AppWrapper from "./App.styles";
+import Navbar from "./components/Navbar";
+import { AppWrapper, ContentWrapper } from "./App.styles";
 
 const App = () => {
   return (
-    <AppWrapper>
-      <LandingPage />
-    </AppWrapper>
+    <>
+      <AppWrapper>
+        <Navbar />
+        <ContentWrapper>
+          <LandingPage />
+        </ContentWrapper>
+      </AppWrapper>
+    </>
   );
 };
 
