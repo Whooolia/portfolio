@@ -1,15 +1,17 @@
 import React from "react";
-import LandingPage from "./components/LandingPage";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import { AppWrapper, ContentWrapper } from "./App.styles";
+import { AppWrapper, ContentWrapper, CircleCursor } from "./App.styles";
+import Cursor from "./components/Cursor";
 
 const App = () => {
   return (
     <>
       <AppWrapper>
+        <Cursor />
         <Navbar />
         <ContentWrapper>
-          <LandingPage />
+          <Main />
         </ContentWrapper>
       </AppWrapper>
     </>

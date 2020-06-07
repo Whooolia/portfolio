@@ -5,6 +5,7 @@ const AppWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 30px 30px 30px;
+  cursor: none;
 `;
 
 const ContentWrapper = styled.div`

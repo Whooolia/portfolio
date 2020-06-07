@@ -5,7 +5,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <NavbarWrapper>
-      <Link href="/about">
+      <Link href="/">
+        <NavbarItem>Home</NavbarItem>
+      </Link>
+      <Link href="/aboutPage">
         <NavbarItem>About</NavbarItem>
       </Link>
       <NavbarItem>Work</NavbarItem>

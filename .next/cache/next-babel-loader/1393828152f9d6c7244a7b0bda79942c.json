@@ -1,1 +1,0 @@
-{"ast":null,"code":"import styled from \"styled-components\";\nconst LandingPageContainer = styled.div`\n  display: flex;\n  align-items: center;\n  font-size: 4rem;\n  font-family: sofia_probold;\n  width: 500px;\n`;\nexport default LandingPageContainer;","map":null,"metadata":{},"sourceType":"module"}
