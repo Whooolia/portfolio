@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import { AppWrapper, ContentWrapper, CircleCursor } from "./App.styles";
+import { AppWrapper, ContentWrapper } from "./App.styles";
 import Cursor from "./components/Cursor";
 
 const App = () => {

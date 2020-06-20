@@ -11,11 +11,10 @@ const Cursor = () => {
       setY(e.pageY);
     });
   });
-
   return (
     <CircleCursor
       style={{ left: `${x}px`, top: `${y}px` }}
-      className="cursor"
+      classNames="cursor"
     />
   );
 };

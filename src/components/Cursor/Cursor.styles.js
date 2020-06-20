@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavbarItem } from "../Navbar/Navbar.styles";
 
 const CircleCursor = styled.div`
   position: absolute;

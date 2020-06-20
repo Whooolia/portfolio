@@ -8,10 +8,9 @@ const Navbar = () => {
       <Link href="/">
         <NavbarItem>Home</NavbarItem>
       </Link>
-      <Link href="/aboutPage">
-        <NavbarItem>About</NavbarItem>
+      <Link href="/work">
+        <NavbarItem>Work</NavbarItem>
       </Link>
-      <NavbarItem>Work</NavbarItem>
       <NavbarItem>Skills</NavbarItem>
       <NavbarItem>Contacts</NavbarItem>
     </NavbarWrapper>
